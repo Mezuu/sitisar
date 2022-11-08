@@ -116,7 +116,7 @@ nb-configuration.xml
 *.sublime-workspace
 *.sublime-project
 .phpintel
-/api/
+# /api/
 
 # Visual Studio Code
 .vscode/
@@ -125,3 +125,5 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+
+.vercel
