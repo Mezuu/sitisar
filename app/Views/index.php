@@ -19,7 +19,7 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="public/assets/css/style.css">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- DataTables CSS -->
@@ -27,7 +27,9 @@
     <!-- Tailwind Forms -->
     <script src="https://cdn.tailwindcss.com/?plugins=forms"></script>
 
-    <title>Document</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+
+    <title>SITISAR - Sistem Informasi Statistik Perdagangan Besar</title>
 </head>
 
 <body class="mainbg">
@@ -95,7 +97,7 @@
                         </div>
                 </div>
                 <div>
-                    <img src="/assets/svg/ship.svg" alt="">
+                    <img src="public/assets/svg/ship.svg" alt="">
                 </div>
             </div>
 
@@ -260,8 +262,8 @@
         </footer>
     </div>
 
-    <script src="/assets/js/arrangeData.js"></script>
-    <script src="/assets/js/getTotal.js"></script>
+    <script src="public/assets/js/arrangeData.js"></script>
+    <script src="public/assets/js/getTotal.js"></script>
     <script>
         let selectedType = 'countries'
         let selectedOption = 'AGAR-AGAR';
@@ -296,7 +298,7 @@
                     selectElement.appendChild(newOption)
                 });
             }
-            xhttp.open("GET", `/getoptions/${selectedType}`, true);
+            xhttp.open("GET", `${window.location.href}/getoptions/${selectedType}`, true);
             xhttp.send();
         }
 
@@ -323,7 +325,7 @@
                             }])
                         }
                         if (selectedType == 'countries') {
-                            xhttp.open("GET", `/gettimeseries/${selected}/${selectedOption}`, true);
+                            xhttp.open("GET", `${window.location.href}/gettimeseries/${selected}/${selectedOption}`, true);
                             chart3.updateOptions({
                                 title: {
                                     text: `Diagram Perkembangan Ekspor Komoditas ${selectedOption} ke Negara ${selected}`
@@ -478,7 +480,7 @@
                 }
 
             };
-            xhttp.open("GET", `/getdata/${type}/${year}/${month}/${param}`, true);
+            xhttp.open("GET", `${window.location.href}/getdata/${type}/${year}/${month}/${param}`, true);
             xhttp.send();
         }
 
