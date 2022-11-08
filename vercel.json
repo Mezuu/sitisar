@@ -10,7 +10,7 @@
     }
   ],
   "env": {
-    "CI_ENVIRONMENT": "production",
+    "CI_ENVIRONMENT": "development",
     "APP_ENV": "production",
     "APP_DEBUG": "true",
     "APP_URL": "https://bot.laravel-livewire.com",
